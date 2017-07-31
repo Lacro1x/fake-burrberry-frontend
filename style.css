@@ -1,0 +1,57 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  margin-left: 16px;
+  margin-top: 68px;
+  text-align: "left";
+  font-family: 'Lora';
+  font-size: 14px;
+  color: #111111;
+}
+
+h2 {
+  margin-left: 16px;
+  margin-top: 24px;
+  font-size: 18px;
+  font-family: 'Raleway';
+  text-align: "left";
+  color: #111111;
+}
+
+.Logo {
+  margin-left: 91px;
+  margin-top: 16px;
+  object-fit: contain;
+}
+
+.front-slide {
+  margin-top: 24px;
+  margin-right: 20px;
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.header-items-line {
+  padding-top: 0px;
+  margin-top: 42px;
+  border: solid 1px #c6c6c6;
+}
+
+.item39428531 {
+  padding-top: 537px;
+  margin-left: 220.5px;
+  font-family: "Raleway";
+  font-size: 12px;
+  text-align: center;
+  color: #171717;
+  color: var(--black);
+}
+
+body {
+  width: 320px;
+  height: 2127px;
+}
