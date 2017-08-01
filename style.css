@@ -3,27 +3,32 @@
   padding 0;
 }
 
+body {
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  display: flex;
+  box-sizing: border-box;
+  border-bottom: solid 1px #c6c6c6;
+  padding: 1rem 0 1rem 0;
+}
 .header-items-logo {
-  width: 8.625rem;
-  height: 0.625rem;
-  margin-left: 5.6875rem;
+  display: block;
+  height: 1rem;
+  margin-left: auto;
+  margin-right: auto;
   object-fit: contain;
 }
 
-.header-items-line {
-  margin-top: 1rem;
-  border: solid 1px #c6c6c6;
-}
-
 .Long-Cotton-Gabardine {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  margin-left: 1rem;
-  font-family: 'Lora';
-  font-size: 0.875rem;
+  margin: 1rem 1rem 1rem 1rem;
+  font-family: 'Lora', serif;
+  font-size: 1.25rem;
+  font-weight: 400;
   text-align: left;
   color: #111111;
-  color: var(--black-two);
 }
 
 .front-slide {
@@ -32,25 +37,135 @@
   object-fit: contain;
 }
 
+.product-option {
+  padding: 0 1rem;
+  font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'Arial';
+  border-bottom: solid 1px #c6c6c6;
+}
+
 .item-110000 {
-  margin-right: 200px;
-  margin-left: 1rem;
-  font-family: 'Raleway';
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
   font-size: 1.125rem;
-  text-align: left;
-  color: #111111;
-  color: var(--black-two);
 }
 
 .item-39428531 {
-  margin-left: 224px;
-  margin-top: 0;
+  margin: 0 1rem 0 0;
+  padding-top: 0.241rem;
+  padding-right: 0.2rem;
+  font-size: 0.75rem;
+  font-family: 'Raleway';
+  color: #171717;
+  display: block;
+}
+
+.product-properties {
+  margin-top: 1.5rem;
+  padding-bottom: 2.1rem;
+  border-bottom: solid 1px #c6c6c6;
+}
+
+.product-pricing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-colour {
+  margin: 1rem 0 0 0;
   font-family: 'Raleway';
   font-size: 0.75rem;
-  text-align: center;
   color: #171717;
 }
 
-.product-info {
-  display:flex;
+.colour-buttons {
+  display: flex;
+}
+
+.use-black-button {
+  background: #232122;
+  margin: 1rem 0 0 0;
+  display: block;
+  padding: 1.2rem;
+  border-radius: 100px;
+  border: solid 1px #232122;
+  cursor: pointer;
+}
+
+.use-honey-button {
+  background-color: #cfa880;
+  margin: 1rem 0 0 1rem;
+  display: block;
+  padding: 1.2rem;
+  border-radius: 100px;
+  border: solid 1px #232122;
+  cursor: pointer;
+}
+
+.main-buttons {
+  padding-top: 1rem;
+}
+
+.store-buttons-size {
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 1rem 6.375rem 1rem 6.4375rem;
+  white-space: nowrap;
+  background: #171717;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Raleway';
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.store-buttons-find {
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 1rem 6.3125rem 1rem 6.375rem;
+  white-space: nowrap;
+  background: #fff;
+  border-radius: 2px;
+  border: solid 1px #999999;
+  font-family: 'Raleway';
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #171717;
+}
+
+.store-buttons-help {
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  padding: 0;
+  font-size: .75rem;
+  text-align: center;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  color: #171717;
+  background: transparent;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+}
+.product-description {
+  display: flex;
+  margin: 0;
+  padding: 1.875rem 1rem;
+  justify-content: space-between;
+  border-bottom: solid 1px #c6c6c6
+}
+
+.product-description-title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: .875rem;
 }
