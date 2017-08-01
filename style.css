@@ -1,57 +1,56 @@
 * {
-  margin:0;
-  padding:0;
+  margin 0;
+  padding 0;
 }
 
-h1 {
-  margin-left: 16px;
-  margin-top: 68px;
-  text-align: "left";
-  font-family: 'Lora';
-  font-size: 14px;
-  color: #111111;
-}
-
-h2 {
-  margin-left: 16px;
-  margin-top: 24px;
-  font-size: 18px;
-  font-family: 'Raleway';
-  text-align: "left";
-  color: #111111;
-}
-
-.Logo {
-  margin-left: 91px;
-  margin-top: 16px;
-  object-fit: contain;
-}
-
-.front-slide {
-  margin-top: 24px;
-  margin-right: 20px;
-  width: 300px;
-  height: 400px;
+.header-items-logo {
+  width: 8.625rem;
+  height: 0.625rem;
+  margin-left: 5.6875rem;
   object-fit: contain;
 }
 
 .header-items-line {
-  padding-top: 0px;
-  margin-top: 42px;
+  margin-top: 1rem;
   border: solid 1px #c6c6c6;
 }
 
-.item39428531 {
-  padding-top: 537px;
-  margin-left: 220.5px;
-  font-family: "Raleway";
-  font-size: 12px;
-  text-align: center;
-  color: #171717;
-  color: var(--black);
+.Long-Cotton-Gabardine {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  font-family: 'Lora';
+  font-size: 0.875rem;
+  text-align: left;
+  color: #111111;
+  color: var(--black-two);
 }
 
-body {
-  width: 320px;
-  height: 2127px;
+.front-slide {
+  width: 18.75rem;
+  height: 25rem;
+  object-fit: contain;
+}
+
+.item-110000 {
+  margin-right: 200px;
+  margin-left: 1rem;
+  font-family: 'Raleway';
+  font-size: 1.125rem;
+  text-align: left;
+  color: #111111;
+  color: var(--black-two);
+}
+
+.item-39428531 {
+  margin-left: 224px;
+  margin-top: 0;
+  font-family: 'Raleway';
+  font-size: 0.75rem;
+  text-align: center;
+  color: #171717;
+}
+
+.product-info {
+  display:flex;
 }
