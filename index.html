@@ -7,18 +7,23 @@
   <title>BURBERRY</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i|Raleway:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
 </head>
 <body>
   <header class="header">
-      <div class="header-items-logo">
-        <img src="img/logo.svg" alt="">
-      </div>
-      <div class="header-items-line"></div>
+      <img class="header-items-logo" src="img/logo.svg" alt="">
   </header>
-    <h1 class="Long-Cotton-Gabardine">Long Cotton Gabardine Car Coat</h1>
-    <img class="front-slide" src="img/bitmap.png"
-     srcset="img/bitmap@2x.png 2x,
-             img/bitmap@3x.png 3x">
+  <h1 class="Long-Cotton-Gabardine">Long Cotton Gabardine Car Coat</h1>
+  <section class="product-photo-slider">
+    <img class="product-photo" src="img\front-slide1.png"
+    srcset="img\front-slide1@2.png img\front-slide1@3.png" alt="front-slide1">
+    <img class="product-photo" src="img\front-slide2.png"
+    srcset="img\front-slide2@2.png img\front-slide2@3.png" alt="front-slide2">
+    <img class="product-photo" src="img\front-slide3.png"
+    srcset="img\front-slide3@2.png img\front-slide3@3.png" alt="front-slide3">
+    <img class="product-photo" src="img\front-slide4.png"
+    srcset="img\front-slide4@2.png img\front-slide4@3.png" alt="front-slide4">
+  </section>
   <section class="product-option">
    <div class="product-properties">
     <div class="product-pricing">
@@ -39,7 +44,7 @@
 </section>
 <section class="product-description-button">
   <h2 class="product-description-title">description</h2>
-  <img class="description-button" src="img/triangle.svg">
+  <img class="description-button" src="img/triangleopen.svg">
 </section>
 <div class="product-description-content">
   <p class="discription-content">A refined car coat crafted in protective
@@ -48,8 +53,7 @@
     cotton gabardine is a tightly woven and  breathable fabric that
     protects against wind and rain.</p>
   <p class="discription-content">Raglan sleeves and a concealed button closure
-      Raglan sleeves and a concealed button closure complement
-      the clean tailored lines.</p>
+     complement the clean tailored lines.</p>
   <p class="discription-content">The piece is finished with a distinctive
     check undercollar.</p>
  <ul class="discription-content-list">
@@ -60,21 +64,59 @@
    <li class="discription-content-list-item">Check lining: 100% cotton</li>
    <li class="discription-content-list-item">Sleeve lining: 100% viscose</li>
    <li class="discription-content-list-item">Buttons: buffalo horn</li>
-   <li class-"discription-content-list-item">Specialist dry clean</li>
+   <li class="discription-content-list-item">Specialist dry clean</li>
    <li class="discription-content-list-item">Made in Europe</li>
    <li class="discription-content-list-item">Item 39428531</li>
  </ul>
 </div>
 <section class="product-shipping">
   <h2 class="product-shipping-title">shipping & returns</h2>
-  <img src="img/triangle.svg">
+  <img src="img/triangleclose.svg">
 </section>
 <section class="store-recomendation">
   <h2 class="recommendation-title">we recommend</h2>
-  <div class="recommendation-menu-1row">
-    <div class="recommendation-menu-card">
+  <div class="recommendation-menu-row">
+    <a class="recommendation-menu-card">
       <img class="photo" src="img/photo1.jpg" alt="">
-      <h2 class="recommendation-menu-title">Emroided Hooded</h2>
+      <h3 class="recommendation-card-title">Emroided Hooded</h3>
+      <h4 class="recommendation-card-price">27 000 руб.</h4>
+    </a>
+    <a class="recommendation-menu-card">
+      <img class="photo" src="img/photo2.jpg" alt="">
+      <h3 class="recommendation-card-title">Relaxed Fit Stretch Jeans</h3>
+      <h4 class="recommendation-card-price">22 500 руб.</h4>
+    </a>
+    <a class="recommendation-menu-card">
+      <img class="photo" src="img/photo3.jpg" alt="">
+      <h3 class="recommendation-card-title">Leather and House Check</h3>
+      <h4 class="recommendation-card-price-bottom">120 000 руб.</h4>
+    </a>
+    <a class="recommendation-menu-card">
+      <img class="photo" src="img/photo4.jpg" alt="">
+      <h3 class="recommendation-card-title">Leather Wingtip Check</h3>
+      <h4 class="recommendation-card-price-bottom">46 000 руб.</h4>
+    </a>
+  </div>
 </section>
+<section class="store-suggestion">
+  <h2 class="store-suggestion-title">more for you</h2>
+  <ul class="store-suggestion-list">
+    <li class="store-suggestion-product">
+      <a class="store-suggestion-product-link">Men's Black Trench Coats</a>
+    </li>
+    <li class="store-suggestion-product">
+      <a class="store-suggestion-product-link">Men's Short Trench Coats</a>
+    </li>
+    <li class="store-suggestion-product">
+      <a class="store-suggestion-product-link">Men's Long Trench Coats</a>
+    </li>
+  </ul>
+</section>
+<footer class="site-footer">
+  <button class="footer-help-button">Shipping country: Russian Federation</button>
+  <button class="footer-help-button">Language: English</button>
+  <h4 class="footer-title">Need help?</h4>
+  <a class="footer-contact-link">Find out more and contact us</a>
+</footer>
 </body>
 </html>
