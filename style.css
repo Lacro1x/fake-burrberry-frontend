@@ -46,7 +46,7 @@ body {
 
 .product-properties {
   margin-top: 1rem;
-  padding-bottom: 2.1rem;
+  padding-bottom: 2rem;
   border-bottom: solid 1px #c6c6c6;
 }
 
@@ -76,6 +76,7 @@ body {
 .product-colour {
   margin: 1rem 0 0 0;
   font-family: 'Raleway';
+  line-height: 1.33;
   font-size: 0.75rem;
   color: #171717;
 }
@@ -104,19 +105,20 @@ body {
   cursor: pointer;
 }
 
-.main-buttons {
-  padding-top: 1rem;
+.store-buttons {
+  padding: 0;
 }
 
 .store-buttons-size {
   display: block;
   margin: auto;
   margin-top: 2rem;
-  padding: 1rem 6.375rem 1rem 6.4375rem;
+  padding: 1.1rem 6.375rem 1.1rem 6.4375rem;
   white-space: nowrap;
   background: #171717;
   color: #ffffff;
   border: none;
+  line-height: 1.33;
   border-radius: 2px;
   font-family: 'Raleway';
   font-size: 0.75rem;
@@ -127,9 +129,10 @@ body {
 .store-buttons-find {
   text-align: center;
   margin: auto;
-  margin-top: 1rem;
-  padding: 1rem 6.3125rem 1rem 6.375rem;
+  margin-top: 0.9rem;
+  padding: 1rem 6.3rem 0.9rem 6.375rem;
   white-space: nowrap;
+  line-height: 1.33;
   background: #fff;
   border-radius: 2px;
   border: solid 1px #999999;
@@ -141,8 +144,8 @@ body {
 
 .store-buttons-help {
   display: block;
-  margin-top: 1.5rem;
-  margin-bottom: 3rem;
+  margin-top: 1.6rem;
+  margin-bottom: 3.1rem;
   padding: 0;
   font-size: .75rem;
   text-align: center;
@@ -196,7 +199,7 @@ body {
 
 .product-shipping {
   margin: 0;
-  padding: 1.875rem 1rem;
+  padding: 2rem 1rem;
   display: flex;
   justify-content: space-between;
   border-top: solid 1px #c6c6c6;
@@ -301,6 +304,7 @@ body {
 .store-suggestion-title {
   display: inline-block;
   margin: 0;
+  line-height: 1.19;
   padding-bottom: 0.5rem;
   font-family: 'Raleway';
   text-transform: uppercase;
@@ -312,7 +316,7 @@ body {
 .store-suggestion-list {
   list-style-type: none;
   margin: 0;
-  padding: 1.5rem 0 4rem 0;
+  padding: 1.5rem 0 3rem 0;
 }
 
 .store-suggestion-product {
@@ -323,7 +327,7 @@ margin: 0 0 1rem 0;
   font-family: 'Lora';
   font-size: 14px;
   font-style: italic;
-  line-height: 1.20;
+  line-height: 1.17;
   color: #171717;
 }
 
@@ -356,10 +360,11 @@ margin: 0 0 1rem 0;
 }
 
 .footer-contact-link {
+  margin: auto;
   display: block;
   text-align: center;
   font-family: 'Lora';
-  font-size: 14px;
+  font-size: 1rem;
   font-style: italic;
   line-height: 1.21;
   color: #171717;
