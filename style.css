@@ -13,7 +13,7 @@ html {
 }
 
 .Long-Cotton-Gabardine {
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 1rem;
   font-family: Lora, serif;
   line-height: 1.2;
   font-size: 1.25rem;
@@ -61,12 +61,12 @@ html {
 }
 
 .item-39428531 {
- padding-top: 0.25rem;
- margin: 0;
- font-size: 0.75rem;
- font-family: Raleway;
- color: #171717;
- display: block;
+  padding-top: 0.25rem;
+  margin: 0;
+  font-size: 0.75rem;
+  font-family: Raleway;
+  color: #171717;
+  display: block;
 }
 
 .product-colour {
@@ -153,21 +153,40 @@ html {
   outline: 0;
   cursor: pointer;
 }
+
+.product-description {
+  padding-top: 2rem;
+}
+
 .product-description-button {
- display: flex;
- margin: 0;
- line-height: 1.25;
- padding: 2rem 1rem 0 1rem;
- justify-content: space-between;
+  line-height: 1.25;
+  width: 100%;
+  padding: 0 1rem;
+  background: none;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
 }
 
 .product-description-title {
+  position: relative;
+  text-align: left;
   margin: 0;
   padding: 0;
   font-family: Raleway;
   font-size: 1rem;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.product-description-title::after {
+  position: absolute;
+  left: 278px;
+  top: 5px;
+  height: 10px;
+  width: 10px;
+  content: '';
+  background: url("img/triangleopen.svg") no-repeat;
 }
 
 .product-description-content {
@@ -188,37 +207,54 @@ html {
 
 .discription-content-list {
   list-style-type: none;
-  margin: 0;
+  margin-bottom: 31px;
   padding: 0;
-}
-
-.discription-content-list-item {
-  margin: 0;
   font-family: Lora;
   font-size: 14px;
   line-height: 1.5rem;
 }
 
 .discription-content-list-item:last-of-type {
-  padding-bottom: 2rem;
+  padding-bottom: 31px;
 }
 
 .product-shipping {
   margin: 0;
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 31px 1rem;
   display: flex;
   justify-content: space-between;
   border-top: solid 1px #c6c6c6;
   border-bottom: solid 1px #c6c6c6;
 }
 
+.product-shipping-button {
+  padding: 0;
+  line-height: 1.25;
+  width: 100%;
+  background: none;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+
 .product-shipping-title {
   margin: 0;
   padding: 0;
+  text-align: left;
   font-family: Raleway;
   text-transform: uppercase;
   font-weight: normal;
   font-size: 1rem;
+}
+
+.product-shipping-title::after {
+  position: absolute;
+  top: 1593px;
+  left: 294px;
+  height: 10px;
+  width: 10px;
+  content: '';
+  background: url("img/triangleclose.svg") no-repeat;
 }
 
 .store-recomendation {
@@ -363,4 +399,13 @@ margin: 0 0 1rem 0;
   font-style: italic;
   line-height: 0.75rem;
   color: #171717;
+}
+@media screen and (min-width: 768px) {
+ .header {
+   padding: 1.5rem 0;
+ }
+
+ .product-photo-slider {
+   display: none;
+ }
 }
