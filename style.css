@@ -214,10 +214,6 @@ html {
   line-height: 1.5rem;
 }
 
-.product-description__content_list:last-of-type {
-  padding-bottom: 31px;
-}
-
 .product-shipping {
   margin: 0;
   padding: 2rem 1rem 31px 1rem;
@@ -277,31 +273,26 @@ html {
   border-bottom: solid 1px #171717;
 }
 
-.recommendation-menu {
-  display: flex;
-  padding-top: 1.5rem;
-}
-
-.recommendation-menu-row {
+.store-recomendation__menu {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 3rem;
 }
 
-.recommendation-menu-card {
+.store-recomendation__menu__card {
   max-width: 130px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.photo {
+.store-recomendation__menu__card__photo {
   width: 130px;
   height: 174px;
 }
 
-.recommendation-card-title {
+.store-recomendation__menu__card__title {
   margin: 0.5rem 0 0.5rem 0;
   font-family: Lora;
   font-weight: normal;
@@ -311,7 +302,7 @@ html {
   color: #171717;
 }
 
-.recommendation-card-price {
+.store-recomendation__menu__card__price {
   margin: 0 0 2rem 0;
   line-height: 1.17;
   color: #999999;
@@ -320,7 +311,7 @@ html {
   font-family: Raleway;
 }
 
-.recommendation-card-price-bottom {
+.store-recomendation__menu__card__price_bottom {
   margin: 0;
   line-height: 14px;
   color: #999999;
@@ -333,7 +324,7 @@ html {
   padding: 0 1rem;
 }
 
-.store-suggestion-title {
+.store-suggestion__title {
   display: inline-block;
   margin: 0;
   line-height: 19px;
@@ -345,18 +336,18 @@ html {
   border-bottom: solid 1px #171717;
 }
 
-.store-suggestion-list {
+.store-suggestion__list {
   list-style-type: none;
   margin: 0;
   padding: 1.5rem 0 3rem 0;
   line-height: 1rem;
 }
 
-.store-suggestion-product {
+.store-suggestion__list__product {
   margin: 0 0 1rem 0;
 }
 
-.store-suggestion-product-link {
+.store-suggestion__list__product__link {
   font-family: Lora, serif;
   font-size: 14px;
   font-style: italic;
@@ -368,7 +359,7 @@ html {
   background-color: #f3f3f3;
 }
 
-.footer-help-button {
+.site-footer__option-button {
   display: block;
   background: transparent;
   border: none;
@@ -380,7 +371,7 @@ html {
   line-height: 1.33;
 }
 
-.footer-title {
+.site-footer__title {
   margin-top: 1.375rem;
   margin-bottom: 1rem;
   font-family: Raleway;
@@ -391,7 +382,7 @@ html {
   color: #171717;
 }
 
-.footer-contact-link {
+.site-footer__contact-link {
   display: block;
   text-align: center;
   font-family: Lora;
