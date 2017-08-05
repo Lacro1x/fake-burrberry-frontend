@@ -12,10 +12,14 @@
   </head>
   <body>
     <header class="header">
-      <img class="header__logo" src="img/logo.svg" alt="Burberry">
+      <a class="header__logo" href="#">
+        <img class="header__logo__photo" src="img/logo.svg" alt="Burberry">
+      </a>
     </header>
     <main class="site-content">
-      <h1 class="product-name">Long Cotton Gabardine Car Coat</h1>
+      <div class="container">
+        <h1 class="product-name">Long Cotton Gabardine Car Coat</h1>
+      </div>
       <section class="product-info">
         <div class="container">
           <div class="row">
@@ -114,15 +118,16 @@
         </button>
       </section>
       <section class="store-recomendation">
-        <h2 class="store-recomendation__title">we recommend</h2>
+        <div class="container">
+          <h2 class="store-recomendation__title">we recommend</h2>
           <div class="store-recomendation__menu">
-            <div class="col-xs-6 col-sm-3">
-              <a class="store-recomendation__menu__card" href="#">
-                <img class="store-recomendation__menu__card__photo" src="img/photo1.jpg" alt="photo1">
-                <h3 class="store-recomendation__menu__card__title">Emroided Hooded Content For Three Lines</h3>
-                <h4 class="store-recomendation__menu__card__price">27 000 руб.</h4>
-              </a>
-            </div>
+              <div class="col-xs-6 col-sm-3">
+                <a class="store-recomendation__menu__card" href="#">
+                  <img class="store-recomendation__menu__card__photo" src="img/photo1.jpg" alt="photo1">
+                  <h3 class="store-recomendation__menu__card__title">Emroided Hooded Content For Three Lines</h3>
+                  <h4 class="store-recomendation__menu__card__price">27 000 руб.</h4>
+                </a>
+              </div>
             <div class="col-xs-6 col-sm-3">
               <a class="store-recomendation__menu__card" href="#">
                 <img class="store-recomendation__menu__card__photo" src="img/photo2.jpg" alt="photo2">
@@ -145,6 +150,7 @@
               </a>
             </div>
           </div>
+        </div>
       </section>
       <section class="store-suggestion">
         <div class="container">
@@ -201,10 +207,10 @@
               </nav>
             </div>
           </div>
+          <button class="site-footer__option-button" type="button">Shipping country: Russian Federation</button>
+          <button class="site-footer__option-button" type="button">Language: English</button>
         </div>
       </div>
-      <button class="site-footer__option-button" type="button">Shipping country: Russian Federation</button>
-      <button class="site-footer__option-button" type="button">Language: English</button>
       <h4 class="site-footer__title">Need help?</h4>
       <a class="site-footer__contact-link" href="#">Find out more and contact us</a>
     </footer>
