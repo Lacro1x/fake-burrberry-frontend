@@ -326,7 +326,7 @@ html {
     margin: 0 0 0.25rem;
   }
   .store-delivery__content {
-    padding-top: 1rem;
+    padding-top: 15px;
   }
 
   .store-delivery__content_text__text {
@@ -582,11 +582,10 @@ html {
 
 .site-footer__navigation__link {
   display: block;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 0.75rem;
   line-height: 1rem;
   text-decoration: none;
-  margin-left: 1px;
   margin-bottom: 0.75rem;
   font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #999999;
