@@ -407,6 +407,7 @@ html {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  text-decoration: none;
 }
 
 .store-recomendation__menu__card__photo {
@@ -506,6 +507,7 @@ html {
   font-family: Lora, serif;
   font-size: 14px;
   font-style: italic;
+  text-decoration: none;
   color: #171717;
 }
 
@@ -573,6 +575,7 @@ html {
   font-weight: 400;
   font-size: 0.75rem;
   line-height: 1rem;
+  text-decoration: none;
   margin-left: 1px;
   margin-bottom: 0.75rem;
   font-family: Raleway;
