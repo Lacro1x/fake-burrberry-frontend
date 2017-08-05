@@ -20,6 +20,7 @@ html {
 
 .product-name {
   margin: 1rem 0;
+  padding-left: 0.5rem;
   font-family: Lora, serif;
   line-height: 1.2;
   font-size: 1.25rem;
@@ -178,10 +179,6 @@ html {
 }
 
 @media screen and (min-width: 48rem) {
-  .product-info {
-    flex-direction: row;
-  }
-
   .product-info__slider {
     position: static;
     display: flex;
@@ -203,20 +200,12 @@ html {
     border-bottom: 0;
   }
 
-  .product-info__option__properties {
-    padding-left: 9px;
-  }
-
-  .product-info__option__store-buttons {
-    margin-left: 5px;
-  }
-
-  .product-info__option__store-buttons_help {
-    padding-left: 5px;
+  .product-info__option__store-buttons_size {
+    padding-right: 4px;
   }
 
   .product-info__option__store-buttons_find {
-    padding-left:
+    padding-right: 3px;
   }
 
 }
@@ -253,8 +242,9 @@ html {
 
 .dropdown__button__title::after {
   position: absolute;
-  left: 278px;
-  top: 5px;
+  top: 25%;
+  right: 0rem;
+  transform: translateY(-50%);
   height: 10px;
   width: 10px;
   content: '';
@@ -369,8 +359,8 @@ html {
 
 .product-shipping__button__title::after {
   position: absolute;
-  top: 1593px;
-  left: 294px;
+  right: 1rem;
+  transform: translateY(50%);
   height: 10px;
   width: 10px;
   content: '';
@@ -457,25 +447,29 @@ html {
 
   .store-recomendation__title {
     margin-bottom: 1rem;
+    margin-left: 0.5rem;
   }
 
   .store-recomendation__menu__card__photo {
     width: auto;
+    max-width: 100%;
     height: auto;
   }
 
   .store-recomendation__menu {
-    margin-bottom: 4rem;
+    flex-flow: row;
+    margin-bottom: 31px;
     max-width: none;
   }
 
-  .store-recomendation__menu__card {
-    max-width: calc(25% - 0.75rem);
-    max-height: calc(100% - 36rem);
-    padding-right: 0rem;
+  .store-recomendation__menu__card__title {
+
   }
-  .store-recomendation__menu__card:last-of-type {
-    padding-right: 0;
+
+  .store-recomendation__menu__card {
+    padding-left: 0rem;
+    max-width: none;
+    margin: 0;
   }
 }
 
@@ -566,7 +560,7 @@ html {
   font-size: 0.75rem;
   line-height: 1rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 15px;
   text-transform: uppercase;
   font-family: Raleway;
   color: #171717;
@@ -574,9 +568,10 @@ html {
 
 .site-footer__navigation__link {
   display: block;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.75rem;
   line-height: 1rem;
+  margin-left: 1px;
   margin-bottom: 0.75rem;
   font-family: Raleway;
   color: #999999;
@@ -588,6 +583,9 @@ html {
 }
 
 @media screen and (min-width: 768px) {
+  .site-footer__option_sm {
+
+  }
  .site-footer {
    padding: 2rem 0;
  }
