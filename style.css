@@ -450,8 +450,8 @@ html {
 }
 
 .store-recomendation__menu__card__photo {
-  width: 130px;
-  height: 174px;
+  width: 100%;
+  height: auto;
 }
 
 .store-recomendation__menu__card__title {
@@ -492,9 +492,9 @@ html {
   }
 
   .store-recomendation__menu__card__photo {
-    width: auto;
+    width: 100%;
     max-width: 100%;
-    height: auto;
+
   }
 
   .store-recomendation__menu {
